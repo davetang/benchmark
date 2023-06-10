@@ -1,0 +1,26 @@
+warning  libmamba Extracted package cache '/root/miniconda3/pkgs/ld_impl_linux-64-2.38-h1181459_1' has invalid size
+warning  libmamba Extracted package cache '/root/miniconda3/pkgs/ld_impl_linux-64-2.38-h1181459_1' has invalid SHA-256 checksum
+warning  libmamba Extracted package cache '/root/miniconda3/pkgs/ca-certificates-2023.01.10-h06a4308_0' has invalid size
+warning  libmamba Extracted package cache '/root/miniconda3/pkgs/ca-certificates-2023.01.10-h06a4308_0' has invalid SHA-256 checksum
+warning  libmamba Extracted package cache '/root/miniconda3/pkgs/xz-5.2.10-h5eee18b_1' has invalid size
+warning  libmamba Extracted package cache '/root/miniconda3/pkgs/xz-5.2.10-h5eee18b_1' has invalid SHA-256 checksum
+warning  libmamba Extracted package cache '/root/miniconda3/pkgs/ncurses-6.4-h6a678d5_0' has invalid size
+warning  libmamba Extracted package cache '/root/miniconda3/pkgs/ncurses-6.4-h6a678d5_0' has invalid SHA-256 checksum
+warning  libmamba Extracted package cache '/root/miniconda3/pkgs/libuuid-1.41.5-h5eee18b_0' has invalid size
+warning  libmamba Extracted package cache '/root/miniconda3/pkgs/libuuid-1.41.5-h5eee18b_0' has invalid SHA-256 checksum
+warning  libmamba Extracted package cache '/root/miniconda3/pkgs/libffi-3.4.2-h6a678d5_6' has invalid size
+warning  libmamba Extracted package cache '/root/miniconda3/pkgs/libffi-3.4.2-h6a678d5_6' has invalid SHA-256 checksum
+warning  libmamba Extracted package cache '/root/miniconda3/pkgs/bzip2-1.0.8-h7b6447c_0' has invalid size
+warning  libmamba Extracted package cache '/root/miniconda3/pkgs/bzip2-1.0.8-h7b6447c_0' has invalid SHA-256 checksum
+warning  libmamba Extracted package cache '/root/miniconda3/pkgs/tk-8.6.12-h1ccaba5_0' has invalid size
+warning  libmamba Extracted package cache '/root/miniconda3/pkgs/tk-8.6.12-h1ccaba5_0' has invalid SHA-256 checksum
+warning  libmamba Extracted package cache '/root/miniconda3/pkgs/readline-8.2-h5eee18b_0' has invalid size
+warning  libmamba Extracted package cache '/root/miniconda3/pkgs/readline-8.2-h5eee18b_0' has invalid SHA-256 checksum
+warning  libmamba Extracted package cache '/root/miniconda3/pkgs/pycparser-2.21-pyhd3eb1b0_0' has invalid size
+warning  libmamba Extracted package cache '/root/miniconda3/pkgs/pycparser-2.21-pyhd3eb1b0_0' has invalid SHA-256 checksum
+warning  libmamba Extracted package cache '/root/miniconda3/pkgs/charset-normalizer-2.0.4-pyhd3eb1b0_0' has invalid size
+warning  libmamba Extracted package cache '/root/miniconda3/pkgs/charset-normalizer-2.0.4-pyhd3eb1b0_0' has invalid SHA-256 checksum
+
+real	1m0.181s
+user	1m31.252s
+sys	0m50.962s

@@ -20,8 +20,7 @@ tcsh(1) builtin `time' command, are:
 | C      | Name and command line arguments of the command being timed. |
 | D      | Average size of the process's unshared data area, in Kilobytes. |
 | E      | Elapsed real (wall clock) time used by the process, in [hours:]minutes:seconds. |
-| F      | Number of major, or I/O-requiring, page faults that occurred while the process was running.  These are |
-| faults | where the page has actually migrated out of primary memory. |
+| F      | Number of major, or I/O-requiring, page faults that occurred while the process was running.  These are faults where the page has actually migrated out of primary memory. |
 | I      | Number of file system inputs by the process. |
 | K      | Average total (data+stack+text) memory use of the process, in Kilobytes. |
 | M      | Maximum resident set size of the process during its lifetime, in Kilobytes. |

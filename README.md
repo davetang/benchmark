@@ -11,12 +11,12 @@ which time
 # /usr/bin/time
 ```
 
-The resource specifiers, which are a superset of those recognized by the
-tcsh(1) builtin `time' command, are:
+The resource specifiers of GNU time, which are a superset of those recognised
+by the tcsh builtin `time` command, are:
 
 | Specifier | Description |
 | --------- | ----------- |
-| %      | A literal `%'. |
+| %     | A literal `%`. |
 | C      | Name and command line arguments of the command being timed. |
 | D      | Average size of the process's unshared data area, in Kilobytes. |
 | E      | Elapsed real (wall clock) time used by the process, in [hours:]minutes:seconds. |
@@ -42,8 +42,39 @@ tcsh(1) builtin `time' command, are:
 | w      | Number of times that the program was context-switched voluntarily, for instance while waiting for an I/O operation to complete. |
 | x      | Exit status of the command. |
 
-Add alias.
+[Resident Set Size](https://en.wikipedia.org/wiki/Resident_set_size) (RSS) is
+the portion of memory (measured in kilobytes) occupied by a process that is
+held in main memory (RAM).
+
+Use `script/timeit.sh` to collect all `time` resource usages.
 
 ```console
-alias timeit='/usr/bin/env time --format "Real time: %e seconds\nUser time: %U seconds\nSys time: %S seconds\nMax mem: %M Kb\nAvg mem: %K Kb\nCPU: %P"'
+./script/timeit.sh ./script/mandelbrot.pl 10000
+```
+```
+Elapsed 8 seconds
+command,/home/dtang/github/benchmark/script/mandelbrot.pl 10000
+elapsed_real_time,0:07.73
+elapsed_real_time_sec,7.73
+perc_cpu,99%
+user_cpu,7.71
+sys_cpu,0.00
+avg_total_mem,0 KB
+max_rss,2560 KB
+avg_rss,0 KB
+sys_page_size,4096 B
+avg_size_unshared_data_area,0 Kb
+avg_unshared_stack_size,0 Kb
+major_page_faults,0
+minor_page_faults,1045
+num_filesys_inputs,0
+num_filesys_outputs,0
+num_swap,0
+avg_shared_txt,0
+num_signals,0
+num_socket_msg_received,0
+num_socket_msg_sent,0
+num_context_switched_vol,1
+num_context_switched_invol,164
+rc,0
 ```

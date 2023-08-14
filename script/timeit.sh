@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+#
+# Source: https://github.com/davetang/benchmark/blob/main/script/timeit.sh
+#
 
 set -euo pipefail
 

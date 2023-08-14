@@ -10,10 +10,6 @@ if [[ $# -lt 1 ]]; then
    exit 1
 fi
 
-cmd=$1
-shift
-param=$@
-
 command -p time \
 --format \
 "command,%C
@@ -40,4 +36,4 @@ num_socket_msg_sent,%s
 num_context_switched_vol,%w
 num_context_switched_invol,%c
 rc,%x" \
-$(realpath ${cmd}) ${param}
+"$@"

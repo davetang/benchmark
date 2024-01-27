@@ -17,7 +17,7 @@ Written by Mike Haertel and Paul Eggert.
 Variables to test:
 
 1. CPU type
-2. Number of processors
-3. Buffer size
+2. Number of processors `--parallel`
+3. Buffer size `--buffer-size`
 
 `src/bench.sh` to run the tests.

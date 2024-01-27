@@ -14,8 +14,10 @@ SIZES=(
 for s in ${SIZES[@]}; do
    for i in {1..3}; do
       for CPU in 1 2 4 8 12 16; do
-         REALTIME=$(/usr/bin/time --format %e sort --parallel ${CPU} ${DIR}/data/${s}.txt 2>&1 > /dev/null)
-         echo -e "${i},${s},${CPU},${REALTIME}"
+         for MEM in 4G 8G 12G; do
+            REALTIME=$(/usr/bin/time --format %e sort --parallel ${CPU} --buffer-size=${MEM} ${DIR}/data/${s}.txt 2>&1 > /dev/null)
+            echo -e "${i},${s},${CPU},${MEM},${REALTIME}"
+         done
       done
    done
 done

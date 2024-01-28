@@ -1,0 +1,57 @@
+---
+title: "Plot results"
+format: gfm
+---
+
+## Data
+
+Load results.
+
+```{r res}
+library(readr)
+res <- read_csv(
+  file = "results/i7-9700.csv",
+  col_names = c('lines', 'replicate', 'cpus', 'mem', 'real_time'),
+  col_types = cols('i', 'i', 'i', 'c', 'd')
+)
+head(res)
+```
+
+Average arcoss replicates.
+
+```{r res_avg}
+library(dplyr)
+res |>
+  group_by(lines, cpus, mem) |>
+  summarise(avg_real_time = mean(real_time)) -> res_avg
+
+head(res_avg)
+```
+
+## Results
+
+Plot.
+
+```{r plot_res_avg}
+library(ggplot2)
+ggplot(res_avg, aes(cpus, avg_real_time, colour = mem)) +
+  geom_line() +
+  geom_point() +
+  facet_wrap(~lines, scales = "free") +
+  theme_minimal()
+```
+
+Best settings for sorting one billion lines.
+
+```{r arrange_time}
+res_avg |>
+  filter(lines == 1000000000) |>
+  arrange(avg_real_time) |>
+  head(10)
+```
+
+## Summary
+
+* More CPUs decreases the time it needs to sort but the decrease approaches a plateau.
+* For files with less lines to sort, changing the buffer size has no effect. With larger files, increasing the buffer results in a decrease in sorting time.
+* Using the more resources (8 CPUs and 24G memory) had the best performance. However, note that using more CPUs with less memory (8 and 8G) was a bit slower than less CPUs with more memory (4 and 24G) suggesting that when using more CPUs, make sure there is enough memory.

@@ -2,14 +2,15 @@
 
 Testing GNU sort.
 
-```
-sort (GNU coreutils) 8.32
-Copyright (C) 2020 Free Software Foundation, Inc.
-License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
-This is free software: you are free to change and redistribute it.
-There is NO WARRANTY, to the extent permitted by law.
+```console
+mkdir -p bin
+gcc src/rand.c -o bin/random
 
-Written by Mike Haertel and Paul Eggert.
+mkdir -p data
+./src/gen.sh
+
+mkdir -p results
+./src/bench.sh | tee results/out.csv
 ```
 
 # Results

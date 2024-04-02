@@ -1,0 +1,45 @@
+---
+title: "Create Seurat object"
+format: html
+editor: visual
+---
+
+## Load data
+
+Read CSV file.
+
+```{r read_csv}
+my_mat <- read.csv("Intra-dataset/Pancreatic_data/Baron Human/Filtered_Baron_HumanPancreas_data.csv")
+row.names(my_mat) <- my_mat$X
+my_mat <- my_mat[, -1]
+my_mat <- t(my_mat)
+my_mat[(nrow(my_mat)-5):nrow(my_mat), 1:6]
+```
+
+Create Seurat object.
+
+```{r create_seurat_object}
+seurat_obj <- Seurat::CreateSeuratObject(
+  counts = my_mat,
+  min.cells = 3,
+  min.features = 200,
+  project = "baron_human"
+)
+
+seurat_obj
+```
+
+Add meta data.
+
+```{r cell_types}
+cell_types <- read.csv("Intra-dataset/Pancreatic_data/Baron Human/Labels.csv", col.names = 'celltype')
+row.names(cell_types) <- colnames(my_mat)
+
+seurat_obj <- Seurat::AddMetaData(
+  object = seurat_obj,
+  metadata = cell_types,
+  col.name = "cell_types"
+)
+
+head(seurat_obj@meta.data)
+```

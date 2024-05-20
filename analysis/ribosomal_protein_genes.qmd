@@ -1,0 +1,61 @@
+---
+title: "Ribosomal protein genes"
+format: html
+---
+
+Load `Seurat`.
+
+```{r load_seurat}
+library("Seurat")
+packageVersion("Seurat")
+```
+
+```{r}
+pbmc4k <- Read10X(data.dir = "../data/10x/pbmc4k/filtered_gene_bc_matrices/GRCh38/")
+
+pbmc <- CreateSeuratObject(
+  counts = pbmc4k,
+  min.cells = 3,
+  min.features = 200,
+  project = "pbmc4k"
+)
+
+pbmc
+```
+
+```{r}
+pan_t_3k <- Read10X(data.dir = "../data/10x/t_3k/filtered_gene_bc_matrices/GRCh38/")
+
+pan_t <- CreateSeuratObject(
+  counts = pan_t_3k,
+  min.cells = 3,
+  min.features = 200,
+  project = "pan_t_3k"
+)
+
+pan_t
+```
+
+```{r mito_genes}
+ribo.genes <- grep(pattern = "^RP[SL]", x = rownames(x = pbmc@assays$RNA), value = TRUE)
+length(ribo.genes)
+```
+
+Use `PercentageFeatureSet` to calculate the percentage of a set of features, which saves us from some typing. The `[[` operator can add columns to object metadata, which is a great place to stash QC stats.
+
+```{r percentage_feature_set_mito}
+pbmc[["percent.ribo"]] <- PercentageFeatureSet(pbmc, pattern = "^RP[SL]")
+pan_t[["percent.ribo"]] <- PercentageFeatureSet(pan_t, pattern = "^RP[SL]")
+```
+
+```{r}
+library(ggplot2)
+rbind(
+  pbmc@meta.data,
+  pan_t@meta.data
+) |>
+  ggplot(aes(orig.ident, percent.ribo)) +
+  geom_boxplot() +
+  theme_minimal()
+```
+

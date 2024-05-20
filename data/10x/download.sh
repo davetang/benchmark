@@ -23,5 +23,8 @@ download https://cf.10xgenomics.com/samples/cell-exp/2.1.0/pbmc4k/pbmc4k_filtere
 # 3k Pan T Cells from a Healthy Donor
 download https://cf.10xgenomics.com/samples/cell-exp/2.1.0/t_3k/t_3k_filtered_gene_bc_matrices.tar.gz
 
+# 2020-A reference packages are backward compatible with Cell Ranger v3.1.0 and prior.
+download https://cf.10xgenomics.com/supp/cell-exp/refdata-gex-GRCh38-2020-A.tar.gz
+
 >&2 echo Done
 exit 0

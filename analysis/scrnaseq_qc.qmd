@@ -1,0 +1,29 @@
+---
+title: "scRNA-seq quality control"
+format: html
+---
+
+Load `Seurat`.
+
+```{r load_seurat}
+library("Seurat")
+packageVersion("Seurat")
+```
+
+Read HDF5 file.
+
+```{r read10x_h5}
+bone <- Read10X_h5('../data/sc_best_practices/filtered_feature_bc_matrix.h5')
+str(bone)
+```
+
+Create Seurat object. Matches dimension from [Best Practices guide](https://www.sc-best-practices.org/preprocessing_visualization/quality_control.html#environment-setup-and-data) (AnnData object with n_obs × n_vars = 16934 × 36601).
+
+```{r seurat_obj}
+seurat_obj <- CreateSeuratObject(
+  counts = bone$`Gene Expression`,
+  project = 'bone marrow'
+)
+
+seurat_obj
+```

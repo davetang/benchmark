@@ -27,3 +27,18 @@ seurat_obj <- CreateSeuratObject(
 
 seurat_obj
 ```
+
+Median absolute deviations (MAD).
+
+$$
+MAD = median(|X_i - median(X)|)
+$$
+
+Compare the `mad()` function with a plain implementation. Note that `mad()` adjust by a factor for asymptotically normal consistency by default; set `constant = 1` to get the same results.
+
+```{r compare_mad}
+set.seed(1984)
+x <- sample(x = 1:100, size = 1000, replace = TRUE)
+median(abs(x - median(x)))
+mad(x, constant = 1)
+```

@@ -1,0 +1,656 @@
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C1",
+  "run_accession": "ERR164550"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C2",
+  "run_accession": "ERR164551"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C3",
+  "run_accession": "ERR164552"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C4",
+  "run_accession": "ERR164553"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C5",
+  "run_accession": "ERR164554"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C6",
+  "run_accession": "ERR164555"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C7",
+  "run_accession": "ERR164556"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C8",
+  "run_accession": "ERR164557"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C9",
+  "run_accession": "ERR164558"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C10",
+  "run_accession": "ERR164559"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C11",
+  "run_accession": "ERR164560"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C12",
+  "run_accession": "ERR164561"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C13",
+  "run_accession": "ERR164562"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C14",
+  "run_accession": "ERR164563"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C15",
+  "run_accession": "ERR164564"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C16",
+  "run_accession": "ERR164565"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C17",
+  "run_accession": "ERR164566"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C18",
+  "run_accession": "ERR164567"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C19",
+  "run_accession": "ERR164568"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C20",
+  "run_accession": "ERR164569"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C21",
+  "run_accession": "ERR164570"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C22",
+  "run_accession": "ERR164571"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C23",
+  "run_accession": "ERR164572"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C24",
+  "run_accession": "ERR164573"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C25",
+  "run_accession": "ERR164574"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C26",
+  "run_accession": "ERR164575"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C27",
+  "run_accession": "ERR164576"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C28",
+  "run_accession": "ERR164577"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C29",
+  "run_accession": "ERR164578"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C30",
+  "run_accession": "ERR164579"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C31",
+  "run_accession": "ERR164580"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C32",
+  "run_accession": "ERR164581"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C33",
+  "run_accession": "ERR164582"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C34",
+  "run_accession": "ERR164583"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C35",
+  "run_accession": "ERR164584"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_C36",
+  "run_accession": "ERR164585"
+}
+{
+  "title": "Lung adenocarcinoma of LC_S1",
+  "run_accession": "ERR318891"
+}
+{
+  "title": "Lung adenocarcinoma of LC_S2",
+  "run_accession": "ERR062335"
+}
+{
+  "title": "Lung adenocarcinoma of LC_S3",
+  "run_accession": "ERR062336"
+}
+{
+  "title": "Lung adenocarcinoma of LC_S4",
+  "run_accession": "ERR318894"
+}
+{
+  "title": "Lung adenocarcinoma of LC_S5",
+  "run_accession": "ERR318895"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S6",
+  "run_accession": "ERR164586"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S8",
+  "run_accession": "ERR164588"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S9",
+  "run_accession": "ERR164589"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S10",
+  "run_accession": "ERR164590"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S11",
+  "run_accession": "ERR164591"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S12",
+  "run_accession": "ERR164592"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S13",
+  "run_accession": "ERR164593"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S14",
+  "run_accession": "ERR164594"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S15",
+  "run_accession": "ERR164595"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S16",
+  "run_accession": "ERR164596"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S17",
+  "run_accession": "ERR164598"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S18",
+  "run_accession": "ERR164600"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S19",
+  "run_accession": "ERR164601"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S20",
+  "run_accession": "ERR164602"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S21",
+  "run_accession": "ERR164603"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S22",
+  "run_accession": "ERR164604"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S23",
+  "run_accession": "ERR164605"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S24",
+  "run_accession": "ERR164606"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S25",
+  "run_accession": "ERR164607"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S26",
+  "run_accession": "ERR164608"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S27",
+  "run_accession": "ERR164609"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S28",
+  "run_accession": "ERR164610"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S29",
+  "run_accession": "ERR164611"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S30",
+  "run_accession": "ERR164612"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S31",
+  "run_accession": "ERR164613"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S32",
+  "run_accession": "ERR164614"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S33",
+  "run_accession": "ERR164615"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S34",
+  "run_accession": "ERR164616"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S35",
+  "run_accession": "ERR164617"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S36",
+  "run_accession": "ERR164618"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S37",
+  "run_accession": "ERR164619"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S38",
+  "run_accession": "ERR164620"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S39",
+  "run_accession": "ERR164621"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S40",
+  "run_accession": "ERR164622"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S41",
+  "run_accession": "ERR164623"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S42",
+  "run_accession": "ERR164624"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S43",
+  "run_accession": "ERR164625"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S44",
+  "run_accession": "ERR164626"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S45",
+  "run_accession": "ERR164627"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S46",
+  "run_accession": "ERR164628"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S47",
+  "run_accession": "ERR164629"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S48",
+  "run_accession": "ERR164630"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S49",
+  "run_accession": "ERR164631"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S50",
+  "run_accession": "ERR164632"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S51",
+  "run_accession": "ERR164633"
+}
+{
+  "title": "lung_adenocarcinoma_of_patient_LC_S52",
+  "run_accession": "ERR164634"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C1",
+  "run_accession": "ERR164473"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C2",
+  "run_accession": "ERR160122"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C3",
+  "run_accession": "ERR160123"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C5",
+  "run_accession": "ERR160124"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C7",
+  "run_accession": "ERR160125"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C9",
+  "run_accession": "ERR160126"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C10",
+  "run_accession": "ERR160127"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C11",
+  "run_accession": "ERR160128"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C12",
+  "run_accession": "ERR160129"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C14",
+  "run_accession": "ERR164482"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C16",
+  "run_accession": "ERR164483"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C17",
+  "run_accession": "ERR160132"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C18",
+  "run_accession": "ERR164485"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C19",
+  "run_accession": "ERR160134"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C20",
+  "run_accession": "ERR160135"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C21",
+  "run_accession": "ERR160136"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C22",
+  "run_accession": "ERR164489"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C24",
+  "run_accession": "ERR164490"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C25",
+  "run_accession": "ERR164491"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C28",
+  "run_accession": "ERR164492"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C29",
+  "run_accession": "ERR164493"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C30",
+  "run_accession": "ERR164494"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C31",
+  "run_accession": "ERR160143"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C33",
+  "run_accession": "ERR160144"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C34",
+  "run_accession": "ERR164497"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C35",
+  "run_accession": "ERR164498"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_C36",
+  "run_accession": "ERR164499"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S1",
+  "run_accession": "ERR160148"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S2",
+  "run_accession": "ERR164501"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S3",
+  "run_accession": "ERR160150"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S4",
+  "run_accession": "ERR160151"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S5",
+  "run_accession": "ERR164504"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S6",
+  "run_accession": "ERR164505"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S8",
+  "run_accession": "ERR164506"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S9",
+  "run_accession": "ERR164507"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S10",
+  "run_accession": "ERR164508"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S11",
+  "run_accession": "ERR160156"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S13",
+  "run_accession": "ERR160157"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S14",
+  "run_accession": "ERR160158"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S15",
+  "run_accession": "ERR164512"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S16",
+  "run_accession": "ERR164513"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S17",
+  "run_accession": "ERR164514"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S18",
+  "run_accession": "ERR164515"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S19",
+  "run_accession": "ERR164516"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S20",
+  "run_accession": "ERR160164"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S21",
+  "run_accession": "ERR164518"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S22",
+  "run_accession": "ERR160166"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S23",
+  "run_accession": "ERR160167"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S24",
+  "run_accession": "ERR164521"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S25",
+  "run_accession": "ERR164522"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S26",
+  "run_accession": "ERR164523"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S27",
+  "run_accession": "ERR164524"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S28",
+  "run_accession": "ERR160172"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S29",
+  "run_accession": "ERR160173"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S30",
+  "run_accession": "ERR160174"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S31",
+  "run_accession": "ERR160175"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S32",
+  "run_accession": "ERR160176"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S33",
+  "run_accession": "ERR160177"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S34",
+  "run_accession": "ERR160178"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S35",
+  "run_accession": "ERR160179"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S36",
+  "run_accession": "ERR160180"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S37",
+  "run_accession": "ERR164534"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S38",
+  "run_accession": "ERR160182"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S39",
+  "run_accession": "ERR160183"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S40",
+  "run_accession": "ERR164537"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S41",
+  "run_accession": "ERR160185"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S42",
+  "run_accession": "ERR164539"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S43",
+  "run_accession": "ERR160187"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S44",
+  "run_accession": "ERR160188"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S45",
+  "run_accession": "ERR160189"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S46",
+  "run_accession": "ERR160190"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S47",
+  "run_accession": "ERR160191"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S48",
+  "run_accession": "ERR164545"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S49",
+  "run_accession": "ERR160193"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S50",
+  "run_accession": "ERR160194"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S51",
+  "run_accession": "ERR160195"
+}
+{
+  "title": "adjacent_normal_lung_tissue_of_human_lung_cancer_LC_S52",
+  "run_accession": "ERR160196"
+}

@@ -38,3 +38,10 @@ Download.
 ```console
 cat GSE40419_runs.json | ./json_to_csv.pl | grep -f runs.txt | cut -f7 -d',' | wget -i - -P fastq
 ```
+
+Checksum.
+
+```console
+cat GSE40419_runs.json | ./json_to_csv.pl | grep -f runs.txt | awk '{print $6,"fastq/"$2}' FS=, OFS="  " > checksum.txt
+md5sum -c checksum.txt
+```

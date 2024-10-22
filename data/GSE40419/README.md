@@ -30,13 +30,13 @@ cat GSE40419.json| jq '.[].geo_samples[].samples[] | {title: .title, run_accessi
 Select some runs.
 
 ```console
-cat GSE40419_title.json | ./json_to_csv.pl | grep "C[123]$" | cut -f1 -d',' > runs.txt
+cat GSE40419_title.json | ./json_to_csv.pl | grep "C[1235]$" | cut -f1 -d',' > runs.txt
 ```
 
 Download.
 
 ```console
-cat GSE40419_runs.json | ./json_to_csv.pl | grep -f runs.txt | cut -f7 -d',' | wget -i - -P fastq
+cat GSE40419_runs.json | ./json_to_csv.pl | grep -f runs.txt | cut -f7 -d',' | wget -i - -nc -P fastq
 ```
 
 Checksum.

@@ -4,9 +4,13 @@ b42fd3e1a501a9702abdad1b263532c7  fastq/ERR164551_1.fastq.gz
 287cd80294338fd6ffc8ecd6709f0350  fastq/ERR164551_2.fastq.gz
 42ab1605166a2b0ae1c62dc3ea51174f  fastq/ERR164552_1.fastq.gz
 279ec120f0085940e77a2b290f06b678  fastq/ERR164552_2.fastq.gz
+9a10eec1a7e703bd1822482e896b4eb6  fastq/ERR164554_1.fastq.gz
+d6174b2517d102e4ad684a0a19e57d0c  fastq/ERR164554_2.fastq.gz
 bda7e5359010e5833be93e049c36e85a  fastq/ERR164473_1.fastq.gz
 5c355d63e520d9684dc94e881884c427  fastq/ERR164473_2.fastq.gz
 b8ae5ca462844028add5b65f054f8c34  fastq/ERR160122_1.fastq.gz
 fa0379d5e7cda53f69fc38a5996ad73b  fastq/ERR160122_2.fastq.gz
 b59543894dd18ebf174180f8604bd905  fastq/ERR160123_1.fastq.gz
 5ae9037881347d5f156fab073f97216b  fastq/ERR160123_2.fastq.gz
+a62e7f7340a56fe7c6f34a2286aea9d0  fastq/ERR160124_1.fastq.gz
+6fa4cee4d3c4cfd43217bb9a21f95f16  fastq/ERR160124_2.fastq.gz

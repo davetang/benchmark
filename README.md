@@ -48,6 +48,39 @@ To specifically measure memory usage, tools like **pmap** (for process memory ma
 Each of these tools provides different insights into how a command utilizes system resources. Choose the one that best fits what you're trying to measure or analyze.
 ```
 
+Using `memusage`.
+
+```console
+memusage ollama run llama3.3 How do I use memusage to measure the memory usage of a command
+```
+```
+`memusage` is a command that reports the memory usage of a process. To use `memusage` to measure the memory usage of a command, you can follow these steps:
+
+1. **Install `memusage`**: If you haven't already installed `memusage`, you may need to install it first. On Ubuntu or Debian-based systems, you can do this by running `sudo apt-get install memusage`.
+2. **Basic Usage**: The basic syntax for using `memusage` is as follows:
+   ```
+   memusage command [arguments]
+   ```
+   Replace `command` with the command you want to measure memory usage for, and `[arguments]` with any arguments that command requires.
+
+3. **Example**: For instance, if you want to measure the memory usage of a simple Python script named `example.py`, you would run:
+   ```
+   memusage python example.py
+   ```
+   This will execute your Python script (`python example.py`) and report on its memory usage.
+
+4. **Understanding Output**: The output of `memusage` typically includes information about the maximum resident set size (RSS) of the process, which is a measure of the portion of memory occupied by a process. You might also
+see other statistics depending on your system and the version of `memusage`.
+
+5. **Tips**:
+   - Ensure you have the correct permissions to run both `memusage` and the command you're measuring.
+   - Some commands or scripts might behave differently when run under `memusage`, especially if they detect being run in a debugging or tracing environment.
+   - For more detailed memory usage analysis, consider using other tools like `valgrind` (with its massif tool), `sysdig`, or system-specific utilities.
+
+Remember, the availability and specifics of `memusage` can vary between different Unix-like operating systems. If you encounter issues or `memusage` is not available on your system, exploring alternative methods for measuring
+memory usage may be necessary.
+```
+
 ## GNU time
 
 Use [GNU time](https://www.gnu.org/software/time/) to displays information

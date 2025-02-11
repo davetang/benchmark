@@ -81,6 +81,33 @@ Remember, the availability and specifics of `memusage` can vary between differen
 memory usage may be necessary.
 ```
 
+`memusage` example.
+
+```console
+memusage ~/github/learning_python/script/memory_test.py 1000 2> memusage_output.txt
+```
+```
+Total Memory: 62.58 GB
+Available Memory: 18.87 GB
+Attempting to allocate 1000 MB of memory...
+Successfully allocated 1000 MB of memory. Holding it for 10 seconds...
+Memory released successfully.
+```
+```console
+head memusage_output.txt
+```
+```
+Memory usage summary: heap total: 1053632857, heap peak: 1050184344, stack peak: 69888
+         total calls   total memory   failed calls
+ malloc|       2889     1053300453              0
+realloc|        540         101080              0  (nomove:388, dec:62, free:0)
+ calloc|        136         231324              0
+   free|       2949     1053371180
+Histogram for block sizes:
+    0-15             42   1% ===
+   16-31             85   2% ======
+```
+
 ## GNU time
 
 Use [GNU time](https://www.gnu.org/software/time/) to displays information

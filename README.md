@@ -1,4 +1,52 @@
-# Various benchmarks.
+# Various benchmarks
+
+Ways to profile CPU and memory usage according to Llama3.3.
+
+```console
+ollama run llama3.3 Opensource software available for Linux, specifically Debian, that can be used to measure the runtime and memory usage of a command
+```
+```
+To measure the runtime and memory usage of a command on Debian (or any Linux system), you have several open-source tools at your disposal. Here are some of the most commonly used ones:
+
+1. **time**: The `time` command is a simple tool for measuring the execution time of a command. It reports the real time, user CPU time, and system CPU time.
+   - Usage: `time your_command`
+
+2. **/usr/bin/time** (if `/usr/bin/time` is different from the shell built-in `time`, it provides more detailed statistics):
+   - Some systems have a more verbose version of `time` in `/usr/bin/time`. This can be used instead of the shell's built-in `time` for more detailed output.
+   - Usage: `/usr/bin/time your_command`
+
+3. **sysdig**: While not exclusively for measuring command runtime and memory, sysdig is a powerful system monitoring tool that can be used to capture detailed information about system calls, including those related to process
+execution and resource usage.
+   - Installation: `sudo apt-get install sysdig`
+   - Usage example (capturing system calls): `sysdig "proc.name = your_command"`
+
+4. **perf**: This is a performance analysis tool for Linux. It can be used to measure various aspects of system and application performance, including CPU cycles, memory access patterns, and more.
+   - Installation: `sudo apt-get install linux-tools-common`
+   - Usage example (measuring CPU cycles): `perf stat your_command`
+
+5. **strace**: While primarily used for tracing system calls, it can indirectly help in understanding how a command uses resources by showing the sequence of system calls made during its execution.
+   - Installation: `sudo apt-get install strace`
+   - Usage: `strace your_command`
+
+6. **ltrace**: Similar to strace but for library calls instead of system calls. This can provide insights into memory usage and other resource utilization patterns by tracing the dynamic library calls a command makes.
+   - Installation: `sudo apt-get install ltrace`
+   - Usage: `ltrace your_command`
+
+7. **valgrind**: Although primarily used as a memory debugger, valgrind can also measure the execution time of programs and profile their CPU usage, among other things.
+   - Installation: `sudo apt-get install valgrind`
+   - Usage example (measuring memory leaks): `valgrind --leak-check=full your_command`
+
+8. **systemd-analyze**: If you're running a systemd-based system (which Debian is by default), you can use `systemd-analyze` to analyze the execution time of services or commands, though it's more geared towards services.
+   - Usage: `sudo systemd-analyze verify your_service_name`
+   - For command analysis, other tools listed here are likely more suitable.
+
+To specifically measure memory usage, tools like **pmap** (for process memory mapping), **smem**, and **memusage** (part of the GNU C Library, used to profile memory usage) can be quite useful:
+- **pmap**: Installation might not be required; usage example: `pmap -d $(pidof your_command)`
+- **smem**: Not always available in default repositories but can be installed via `sudo apt-get install smem` if available.
+- **memusage**: Part of the GNU C Library, used as `memusage your_command`.
+
+Each of these tools provides different insights into how a command utilizes system resources. Choose the one that best fits what you're trying to measure or analyze.
+```
 
 ## GNU time
 

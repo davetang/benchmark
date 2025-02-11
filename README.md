@@ -186,3 +186,40 @@ num_context_switched_vol,1
 num_context_switched_invol,164
 rc,0
 ```
+
+Using [memory_test.py](https://github.com/davetang/learning_python/blob/main/script/memory_test.py).
+
+```console
+./script/timeit.sh ~/github/learning_python/script/memory_test.py 1000
+```
+```
+Total Memory: 62.58 GB
+Available Memory: 60.73 GB
+Attempting to allocate 1000 MB of memory...
+Successfully allocated 1000 MB of memory. Holding it for 10 seconds...
+Memory released successfully.
+command,/home/dtang/github/learning_python/script/memory_test.py 1000
+elapsed_real_time,0:10.14
+elapsed_real_time_sec,10.14
+perc_cpu,1%
+user_cpu,0.05
+sys_cpu,0.08
+avg_total_mem,0 KB
+max_rss,1036144 KB
+avg_rss,0 KB
+sys_page_size,4096 B
+avg_size_unshared_data_area,0 Kb
+avg_unshared_stack_size,0 Kb
+major_page_faults,0
+minor_page_faults,2777
+num_filesys_inputs,0
+num_filesys_outputs,0
+num_swap,0
+avg_shared_txt,0
+num_signals,0
+num_socket_msg_received,0
+num_socket_msg_sent,0
+num_context_switched_vol,2
+num_context_switched_invol,4
+rc,0
+```

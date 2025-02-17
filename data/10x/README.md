@@ -38,3 +38,20 @@ wget https://cf.10xgenomics.com/samples/cell-exp/1.1.0/293t/293t_filtered_gene_b
 ```console
 wget https://cf.10xgenomics.com/samples/cell-exp/1.1.0/jurkat:293t_50:50/jurkat:293t_50:50_filtered_gene_bc_matrices.tar.gz
 ```
+
+### PBMCs
+
+5k Human PBMCs:
+
+* [Donor 1](https://www.10xgenomics.com/datasets/5k_Human_Donor1_PBMC_3p_gem-x)
+* [Donor 2](https://www.10xgenomics.com/datasets/5k_Human_Donor2_PBMC_3p_gem-x)
+* [Donor 3](https://www.10xgenomics.com/datasets/5k_Human_Donor3_PBMC_3p_gem-x)
+* [Donor 4](https://www.10xgenomics.com/datasets/5k_Human_Donor4_PBMC_3p_gem-x)
+
+```console
+wget https://cf.10xgenomics.com/samples/cell-exp/9.0.0/5k_Human_Donor1_PBMC_3p_gem-x_5k_Human_Donor1_PBMC_3p_gem-x/5k_Human_Donor1_PBMC_3p_gem-x_5k_Human_Donor1_PBMC_3p_gem-x_count_sample_filtered_feature_bc_matrix.h5
+wget https://cf.10xgenomics.com/samples/cell-exp/9.0.0/5k_Human_Donor2_PBMC_3p_gem-x_5k_Human_Donor2_PBMC_3p_gem-x/5k_Human_Donor2_PBMC_3p_gem-x_5k_Human_Donor2_PBMC_3p_gem-x_count_sample_filtered_feature_bc_matrix.h5
+wget https://cf.10xgenomics.com/samples/cell-exp/9.0.0/5k_Human_Donor3_PBMC_3p_gem-x_5k_Human_Donor3_PBMC_3p_gem-x/5k_Human_Donor3_PBMC_3p_gem-x_5k_Human_Donor3_PBMC_3p_gem-x_count_sample_filtered_feature_bc_matrix.h5
+wget https://cf.10xgenomics.com/samples/cell-exp/9.0.0/5k_Human_Donor4_PBMC_3p_gem-x_5k_Human_Donor4_PBMC_3p_gem-x/5k_Human_Donor4_PBMC_3p_gem-x_5k_Human_Donor4_PBMC_3p_gem-x_count_sample_filtered_feature_bc_matrix.h5
+```
+
